@@ -1,0 +1,533 @@
+
+
+
+
+
+
+
+
+Back
+Connectivity, Community, and Centrality Analytics
+Quiz, 19 questions
+15/19 points (78%)
+
+
+Congratulations! You passed!
+Next Item
+
+
+
+
+
+
+
+Question 1
+Correct1 / 1 points
+1. Question 1
+
+The example given in the lectures of when a power network loses power in large portions of its service area was an example of what?
+
+
+
+high levels of connectivity which make it easy to bring a network down
+
+
+
+a problem that can occur when centrality is too high
+
+
+
+an attack which causes disconnection of the graph 
+
+Correct 
+
+Question 2
+Incorrect0 / 1 points
+2. Question 2
+
+Is the following graph strongly connected, weakly connected or neither?
+
+
+
+
+
+weakly connected
+
+This should not be selected 
+
+Hint: directionality of edges doesn't matter in identifying weakly connected graphs. See this video to review.
+
+
+
+strongly connected
+
+
+
+neither
+
+Question 3
+Correct1 / 1 points
+3. Question 3
+
+Is the following graph strongly connected, weakly connected or neither?
+
+
+
+
+
+weakly connected
+
+Correct 
+
+
+
+strongly connected
+
+
+
+neither
+
+Question 4
+Correct1 / 1 points
+4. Question 4
+
+If you were going to look for a node which would be most likely to be the target of an attack to disconnect a network, what would be the best characteristic to look for?
+
+
+
+low degree nodes
+
+
+
+nodes that, if they were removed, would cause the graph to go from strongly connected to weakly connected
+
+
+
+high degree nodes
+
+Correct 
+
+Question 5
+Correct1 / 1 points
+5. Question 5
+
+What is the in-degree of node B?
+
+
+
+
+
+
+
+0
+
+
+
+1
+
+
+
+2
+
+
+
+3
+
+Correct 
+
+Question 6
+Correct1 / 1 points
+6. Question 6
+
+In the graph below, which node is the greatest listener?
+
+
+
+
+
+A
+
+
+
+B
+
+Correct 
+
+
+
+C
+
+
+
+D
+
+Question 7
+Correct1 / 1 points
+7. Question 7
+
+In the graph below, which nodes are the greatest communicators? (Hint: there's a tie)
+
+
+
+
+A
+
+Correct 
+
+Right, A has out-degree 2 and in-degree 2.
+
+
+
+B
+
+Un-selected is correct 
+
+
+
+C
+
+Correct 
+
+Right, C has out-degree 2 and in-degree 2.
+
+
+
+D
+
+Un-selected is correct 
+
+Question 8
+Correct1 / 1 points
+8. Question 8
+
+What would we be looking for if we followed the steps below? Note: we have 2 graphs.1.Create a table for each graph where, for each node, you list the degree of the node.2.For each graph, create a histogram indicating how many nodes in that graph have a specific degree (e.g., how many nodes have degree 1? 2? etc.).3.Use advanced approaches (e.g. Euclidean distances) to compare these two histograms.
+
+
+
+Centrality
+
+
+
+Connectivity
+
+
+
+Community
+
+
+
+Similarity
+
+Correct 
+
+Question 9
+Correct1 / 1 points
+9. Question 9
+
+Which of the following are the three type of analytics questions asked about communities?
+
+
+
+Static
+
+Correct 
+
+
+
+Evolution
+
+Correct 
+
+
+
+Prediction
+
+Correct 
+
+
+
+Connection
+
+Un-selected is correct 
+
+Question 10
+Correct1 / 1 points
+10. Question 10
+
+What type of community analytics question is the following?
+Did a community form on twitter around the 2014 World Cup in Brazil?
+
+
+
+Static
+
+
+
+Connection
+
+
+
+Evolution
+
+Correct 
+
+
+
+Prediction
+
+Question 11
+Correct1 / 1 points
+11. Question 11
+
+Which type of community analytics question is the following?
+How tightly knit was the 2014 World Cup twitter community on July 13, 2014 (the day of the finals)?
+
+
+
+Evolution
+
+
+
+Prediction
+
+
+
+Static
+
+Correct 
+
+
+
+Connection
+
+Question 12
+Incorrect0 / 1 points
+12. Question 12
+
+What is the internal degree of the node indicated in the graph below?
+
+
+
+
+1
+
+This should not be selected 
+
+Hint: Internal vs. External degree has to do with whether you count edges within the component or outside the component. See this video to review.
+
+
+
+2
+
+
+
+3
+
+
+
+4
+
+Question 13
+Correct1 / 1 points
+13. Question 13
+
+Which of the two graphs below is more modular? 
+
+
+
+
+
+A
+
+
+
+B
+
+Correct 
+
+Question 14
+Incorrect0 / 1 points
+14. Question 14
+
+Which of the following community tracking phases best describes what (usually) happens a few months after two companies merge?
+
+
+
+Merge
+
+
+
+Birth
+
+
+
+Death
+
+
+
+Split
+
+
+
+Grow
+
+This should not be selected 
+
+Hint: While the final graph of the company is bigger than either of the original 2, it is not likely that the overall number of nodes is greater than the sum of the 2 originally. See this video to review.
+
+
+
+Contract
+
+Question 15
+Correct1 / 1 points
+15. Question 15
+
+An influencer in a network is defined as:
+
+
+
+the biggest gossip in the network
+
+
+
+a node which can reach all other nodes quickly
+
+Correct 
+
+
+
+a node which has heavy weight edges to at least 1/2 of the nodes in the network
+
+Question 16
+Correct1 / 1 points
+16. Question 16
+
+Which of the following are the 2 core “key player” problems that centrality analytics can address? 
+
+
+
+A set of nodes which can reach (almost) all other nodes 
+
+Correct 
+
+
+
+Which nodes' removal will maximally disrupt the network
+
+Correct 
+
+
+
+What is the shortest path through a network 
+
+Un-selected is correct 
+
+
+
+Which nodes have the highest ratio of out-degree nodes to in-degree nodes 
+
+Un-selected is correct 
+
+Question 17
+Correct1 / 1 points
+17. Question 17
+
+What kind of centrality would you want to analyze in a graph if you wanted to inject information that flows through the shortest path in a network and have it spread quickly? 
+
+
+
+Between-ness
+
+
+
+Closeness
+
+Correct 
+
+
+
+Degree
+
+
+
+Group
+
+Question 18
+Correct1 / 1 points
+18. Question 18
+
+What kind of centrality would you want to analyze in a graph if you wanted maximize commodity flow in a network? 
+
+
+
+Degree
+
+
+
+Group
+
+
+
+Between-ness
+
+Correct 
+
+
+
+Closeness
+
+Question 19
+Incorrect0 / 1 points
+19. Question 19
+
+What kind of centrality identifies "hubness"?
+
+
+
+Group
+
+This should not be selected 
+
+See this video to review.
+
+
+
+Degree
+
+
+
+Between-ness
+
+
+
+Closeness
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
