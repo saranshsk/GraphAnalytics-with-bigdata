@@ -1,0 +1,367 @@
+
+
+
+Question 1
+Correct1 / 1 points
+1. Question 1
+
+A graph representing tweets would have only “one type” (e.g. label) of node.
+
+
+
+True
+
+
+
+False
+
+Correct 
+
+Question 2
+Correct1 / 1 points
+2. Question 2
+
+In a network representing the world wide web nodes would likely represent:
+
+
+
+Hyperlinks
+
+
+
+Webpages
+
+Correct 
+
+This is the content we would want to document relations between.
+
+
+
+Google search terms
+
+
+
+Individual computers
+
+Question 3
+Correct1 / 1 points
+3. Question 3
+
+In a network representing the world wide web edges (or links) would likely represent
+
+
+
+Hyperlinks
+
+Correct 
+
+Since one webpage links to another using hyperlinks, these edges (or links) would likely be represented by edges between nodes.
+
+
+
+Webpages
+
+
+
+Google search terms
+
+
+
+Individual computers
+
+Question 4
+Correct1 / 1 points
+4. Question 4
+
+In an email network, which might reasonably be represented by weight on edges?
+
+
+
+the total number of emails sent by one user in a week
+
+
+
+average number of emails sent from one user to another in a week
+
+Correct 
+
+
+
+the total number of people who sent an email in a week
+
+Question 5
+Incorrect0 / 1 points
+5. Question 5
+
+A loop in a graph is where:
+
+
+
+when there is a edge from A->B, there is also an edge from B->A.
+
+
+
+where there is a path in some way from a node, through 1 or more other nodes, back to the original node.
+
+This should not be selected 
+
+See this video to brush up.
+
+
+
+where there is an edge from a node to itself.
+
+Question 6
+Incorrect0 / 1 points
+6. Question 6
+
+An example of a loop in a graph could occur when:
+
+
+
+Someone emails themself
+
+
+
+Someone emails a friend who replies
+
+
+
+Someone emails a friend, who emails another friend, who then replies to you
+
+This should not be selected 
+
+Hint: each of the other friends would be additional nodes. See this video to brush up.
+
+Question 7
+Correct1 / 1 points
+7. Question 7
+
+When trying to represent a relationship between Maria and Julio who have more than one relationship to each other (e.g., tennis partner, co-worker, emergency contact) which of the following would be needed in a graph representing those relationships
+
+
+
+Separate graphs for each kind of relationship
+
+
+
+Multiple edges between Maria and Julio
+
+Correct 
+
+
+
+Multiple nodes for each of Maria and Julio, to capture the various relationships
+
+Question 8
+Correct1 / 1 points
+8. Question 8
+
+In many applications paths (where we go from one node to another without repeating nodes) are more useful than walks (where we can repeat a node when going from one node to another).
+
+
+
+True
+
+Correct 
+
+
+
+False
+
+Question 9
+Incorrect0 / 1 points
+9. Question 9
+
+Trails (paths without repeated edges) can be interesting in which of the following problem applications?
+
+
+
+An email network tracing frequency of emails from one person to another.
+
+
+
+Routing to avoid visiting the same city.
+
+
+
+Routing to avoid using the same bridge or road.
+
+
+
+An email network tracing email replies.
+
+This should not be selected 
+
+This may involve repeated responses, which would require repeating edges. See this video to review this concept.
+
+Question 10
+Correct1 / 1 points
+10. Question 10
+
+Suppose we have an email network where the edges of a graph represent the number of emails from one user to another. 
+If I was going to ask if Maria had sent any emails that (either directly or through forwarding from others) reached Julio, I would ask if:
+
+
+
+Julio’s node was reachable from Maria node
+
+Correct 
+
+
+
+Maria’s node was reachable from Julio’s node
+
+Question 11
+Correct1 / 1 points
+11. Question 11
+
+If I want to find the diameter of a graph, I should start by finding the shortest path between each set of nodes.
+
+
+
+True
+
+Correct 
+
+
+
+False
+
+Question 12
+Incorrect0 / 1 points
+12. Question 12
+
+What is the diameter of this graph?
+
+
+
+
+
+1
+
+This should not be selected 
+
+Hint: The diameter is the longest "shortest path" between any set of nodes. See this video to review this concept.
+
+
+
+2
+
+
+
+3
+
+Question 13
+Correct1 / 1 points
+13. Question 13
+
+This question is about "best paths". To find the most discussed email in an email network, would we be looking to minimize a function or maximize a function?
+
+
+
+Maximize
+
+Correct 
+
+The "optimization function" we would want is to maximize the length of a reply path based off the sending of one email.
+
+
+
+Minimize
+
+Question 14
+Correct1 / 1 points
+14. Question 14
+
+Which are the two kinds of constraints on paths discussed in the video on basic path analytics? (check 2) Hint: remember the example of Amarnath needing to get to work by taking his son to school.
+
+
+
+Directionality
+
+Un-selected is correct 
+
+
+
+Inclusion of nodes and/or edges
+
+Correct 
+
+For example, if one must stop by a given location on your route to someplace else. See this video to review. (The Basic Path Analytics Problem)
+
+
+
+Exclusion of nodes and/or edges
+
+Correct 
+
+For example, if one will not use toll-roads. See this video to review. (The Basic Path Analytics Problem)
+
+Question 15
+Correct1 / 1 points
+15. Question 15
+
+What are examples of preference constraints in the Google Maps application?
+
+
+
+Avoid roads under construction
+
+Correct 
+
+
+
+Avoid highways
+
+Correct 
+
+
+
+Include son's school
+
+Un-selected is correct 
+
+Question 16
+Correct1 / 1 points
+16. Question 16
+
+Which of the statements below is true?
+
+
+
+Dijsktra's algorithm is computationally efficient (has low computational complexity).
+
+
+
+Dijsktra's algorithm is computationally inefficient (has high computational complexity).
+
+Correct 
+
+Question 17
+Correct1 / 1 points
+17. Question 17
+
+In the video on "Inclusion and Exclusion Constraints" we learn that adding constraints can actually make our analysis job easier. For example, when we require that a given node be included on a path, which of the following impacts now make the analysis job easier? (Choose 2)
+
+
+
+Splitting the task into 2 independent shortest path problems
+
+Correct 
+
+And these can be solved in parallel -- at the same time.
+
+
+
+Changing the weights on the edges of the graph and/or subgraphs
+
+Un-selected is correct 
+
+
+
+Reduction of the size of the graph
+
+Correct 
+
+There may be only parts of the complete graph that are relevant, given constraints.
