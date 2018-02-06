@@ -1,0 +1,37 @@
+
+
+ 
+ 
+  1----50000,9656==============================
+ 
+ 
+  2----49,None of the above,50000
+ 
+ 
+  3----1035,1395,1221=======================
+ 
+ 
+  4----the count of all non loop edges
+  between every adjacent node pair.============
+ 
+ 
+  5----the pair of nodes with the maximum
+  number of multi-edges between them==============
+ 
+ 
+  6----The neighbors whose distance is
+  greater than 1 and less than 2 of the node whose name is ‘BRCA1’,,,,,The
+  neighbors of the node whose name is ‘BRCA1’,,,,,,,,,,,,,,The neighbors’
+  neighbors of the node whose name is ‘BRCA1’
+ 
+ 
+  7----9=============================
+ 
+ 
+  8----EP300 and BRCA1,MEPCE and EGFR,GRB2
+  and TP53
+ 
+ 
+  9----675,1351,821=========================
+ 
+
